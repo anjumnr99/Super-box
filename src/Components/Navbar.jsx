@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
-      <div className="navbar-start">
-        <div className="dropdown">
+    <div className=" bg-blue-200 ">
+      <div className="navbar container mx-auto">
+        <div className="navbar-start">
+          {/* <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -41,10 +44,10 @@ const Navbar = () => {
               <a>Item 3</a>
             </li>
           </ul>
+        </div> */}
+          <a className="btn btn-ghost text-xl">Super Box</a>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
-      </div>
-      <div className="navbar-center hidden lg:flex">
+        {/* <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
             <a>Item 1</a>
@@ -66,9 +69,10 @@ const Navbar = () => {
             <a>Item 3</a>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      </div> */}
+        <div className="navbar-end">
+          <Link className=" text-blue-700 text-xl font-semibold">Register Here!</Link>
+        </div>
       </div>
     </div>
   );
