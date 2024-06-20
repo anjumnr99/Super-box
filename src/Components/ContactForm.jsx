@@ -10,7 +10,7 @@ const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_qlmkorg', 'template_jaqj6lm', form.current, 'SUesmYdqxVWbgg_gI')
+        emailjs.sendForm('service_x9lp7bv', 'template_opoyvwp', form.current, 'vr9YnvxBBgXK5seq9')
             .then((result) => {
                 console.log(result);
                 if (result.status === 200) {
